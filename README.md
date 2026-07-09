@@ -19,6 +19,7 @@ This repository is designed to:
 * **Scikit-learn** — Machine learning algorithms
 * **SymPy** — Symbolic mathematics
 * **Matplotlib** — Data visualization
+* **Seaborn** — Statistical data visualization
 * **Jupyter Notebook** — Interactive development
 
 ---
@@ -97,8 +98,8 @@ https://link.springer.com/book/10.1007/979-8-8688-0413-7
 ## 🤝 Contributions
 
 This repository is a personal learning journey. Suggestions are always welcome.
+If you find this repository helpful, consider giving it a ⭐!
 
-## ⭐ If you find this repository helpful, consider giving it a star!
 ---
 
 ## License
