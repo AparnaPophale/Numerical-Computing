@@ -71,7 +71,7 @@ Matrix_Multiplication/
 - **Linear Algebra Foundations:** Matrix projections and tensor dimension transformations.
 - **Vectorization & SIMD:** Single Instruction, Multiple Data (SIMD) operations utilizing underlying hardware.
 - **Probabilistic Distributions:** Modeling user spikes via log-normal statistics.
-- **Computational Complexity:** Empirical tracking of asymptotic \(O(N^3)\) behavior.
+- **Computational Complexity:** Empirical tracking of asymptotic ($O(N^3)$) behavior.
 - **Cache-Aware Optimization:** Spatial memory locality and CPU cache optimization.
 
 ---
@@ -96,8 +96,8 @@ The resulting projection yields \(C \in \mathbb{R}^{m \times p}\), mapping each 
 
 ### Core Algorithmic Implementations
 
-- **Naive Algorithm (\(O(N^3)\))** – Standard three-loop implementation.
-- **Tiled Algorithm (\(O(N^3)\))** – Cache-aware matrix blocking to improve memory locality.
+- **Naive Algorithm ($O(N^3)$)** – Standard three-loop implementation.
+- **Tiled Algorithm ($O(N^3)$)\n** – Cache-aware matrix blocking to improve memory locality.
 - **NumPy Matrix Engine** – Highly optimized BLAS/LAPACK-backed vectorized implementation.
 
 ---
