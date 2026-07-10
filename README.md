@@ -102,7 +102,12 @@ If you find this repository helpful, consider giving it a ⭐!
 
 ---
 
-## License
-This project is released under the MIT License.
 
-Ethical Use Notice: This project is intended for educational, research, and professional learning purposes. Misrepresentation of authorship or deceptive use is unethical. Attribution is required under the MIT License.
+
+### MIT License
+Copyright (c) 2026 Aparna S Pophale
+
+**Ethical Use Notice:**
+This project is intended for educational, research, and professional learning purposes.
+Any use that misrepresents authorship or is intended to deceive others is unethical.
+Attribution to the original author is required under the MIT License.
