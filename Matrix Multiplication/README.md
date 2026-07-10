@@ -82,15 +82,15 @@ Matrix_Multiplication/
 
 Given a usage matrix \(A \in \mathbb{R}^{m \times n}\) and a provider pricing matrix \(B \in \mathbb{R}^{n \times p}\), their matrix product is:
 
-\[
+$$
 C = AB
-\]
+$$
 
-where
+where:
 
-\[
-c_{ij} = \sum_{k=1}^{n} a_{ik} b_{kj}
-\]
+$$
+c_{ij} = \sum_{k=1}^{n} a_{ik}b_{kj}
+$$
 
 The resulting projection yields \(C \in \mathbb{R}^{m \times p}\), mapping each student to their projected cost for each AI provider.
 
