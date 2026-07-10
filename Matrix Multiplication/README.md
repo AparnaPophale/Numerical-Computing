@@ -71,7 +71,7 @@ Matrix_Multiplication/
 - **Linear Algebra Foundations:** Matrix projections and tensor dimension transformations.
 - **Vectorization & SIMD:** Single Instruction, Multiple Data (SIMD) operations utilizing underlying hardware.
 - **Probabilistic Distributions:** Modeling user spikes via log-normal statistics.
-- **Computational Complexity:** Empirical tracking of asymptotic ($O(N^3)$) behavior.
+- **Computational Complexity:** Empirical tracking of asymptotic (O(N^3)$) behavior.
 - **Cache-Aware Optimization:** Spatial memory locality and CPU cache optimization.
 
 ---
@@ -80,12 +80,12 @@ Matrix_Multiplication/
 
 ### The Linear Algebra Engine
 
-Given $A \in \mathbb{R}^{m \times n}$ and $B \in \mathbb{R}^{n \times p}$, their matrix product is $C = AB$, where each element is defined as:$c_{ij} = \sum_{k=1}^{n} a_{ik}b_{kj}$ The resulting matrix has dimensions $C \in \mathbb{R}^{m \times p}$.
+Given $A \in \mathbb{R}^{m \times n}$ and $B \in \mathbb{R}^{n \times p}$, their matrix product is $C = AB$, where each element is defined as: $$c_{ij} = \sum_{k=1}^{n} a_{ik}b_{kj}$$ The resulting matrix has dimensions $C \in \mathbb{R}^{m \times p}$.
 
 ### Core Algorithmic Implementations
 
-- **Naive Algorithm ($O(N^3)$)** – Standard three-loop implementation.
-- **Tiled Algorithm ($O(N^3)$)\n** – Cache-aware matrix blocking to improve memory locality.
+- **Naive Algorithm (O(N^3)$)** – Standard three-loop implementation.
+- **Tiled Algorithm (O(N^3)$)\n** – Cache-aware matrix blocking to improve memory locality.
 - **NumPy Matrix Engine** – Highly optimized BLAS/LAPACK-backed vectorized implementation.
 
 ---
