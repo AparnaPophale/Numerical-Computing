@@ -80,19 +80,7 @@ Matrix_Multiplication/
 
 ### The Linear Algebra Engine
 
-Given a usage matrix \(A \in \mathbb{R}^{m \times n}\) and a provider pricing matrix \(B \in \mathbb{R}^{n \times p}\), their matrix product is:
-
-$$
-C = AB
-$$
-
-where:
-
-$$
-c_{ij} = \sum_{k=1}^{n} a_{ik}b_{kj}
-$$
-
-The resulting projection yields \(C \in \mathbb{R}^{m \times p}\), mapping each student to their projected cost for each AI provider.
+Given $A \in \mathbb{R}^{m \times n}$ and $B \in \mathbb{R}^{n \times p}$, their matrix product is $C = AB$, where each element is defined as:$$c_{ij} = \sum_{k=1}^{n} a_{ik}b_{kj}$$The resulting matrix has dimensions $C \in \mathbb{R}^{m \times p}$.
 
 ### Core Algorithmic Implementations
 
