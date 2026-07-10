@@ -50,6 +50,7 @@ Matrix_Multiplication/
 ├── matrix_multiplication_benchmark.ipynb
 └── requirements.txt
 
+---
 ## Tech Stack & Core Concepts
 
 ### Tech Stack
