@@ -80,7 +80,7 @@ Matrix_Multiplication/
 
 ### The Linear Algebra Engine
 
-Given $A \in \mathbb{R}^{m \times n}$ and $B \in \mathbb{R}^{n \times p}$, their matrix product is $C = AB$, where each element is defined as:$$c_{ij} = \sum_{k=1}^{n} a_{ik}b_{kj}$$The resulting matrix has dimensions $C \in \mathbb{R}^{m \times p}$.
+Given $A \in \mathbb{R}^{m \times n}$ and $B \in \mathbb{R}^{n \times p}$, their matrix product is $C = AB$, where each element is defined as:$c_{ij} = \sum_{k=1}^{n} a_{ik}b_{kj}$ The resulting matrix has dimensions $C \in \mathbb{R}^{m \times p}$.
 
 ### Core Algorithmic Implementations
 
