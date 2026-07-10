@@ -49,6 +49,7 @@ Matrix_Multiplication/
 ├── dashboard.py                       
 ├── matrix_multiplication_benchmark.ipynb
 └── requirements.txt
+```
 
 ---
 
